@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+        <meta charset="utf-8">
+        <meta name="author" content="Guilherme"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Cadastro</title>
+    </head>
+    <body> 
+        <div class="jumbotron text-center">
+                <h1>Cadastre-se:</h1>
+                <h2>Preencha todos os dados!!!</h2>
+        </div>
+        <form name="cadastro" method="post">
+            <div class="container">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <br/>
+                    <input type="text" required>
+                </div>
+                <hr/>     
+                <div>
+                    <label for="sexo">Sexo:</label>
+                        <br/>
+                        <input name="sexo" id="M" type="radio">
+                        <label for="M">Masculino</label>
+                        <input name="sexo" id="F" type="radio">
+                        <label for="F">Feminino</label>      
+                </div>
+                <hr/>
+				<div>
+                    <label for="ddn">Data de nascimento:</label>
+                    <br/>
+                    <input type="date" required>
+					<hr/>
+                </div>				
+                <div>
+                    <label for="cpf">CPF:</label>
+                    <br/>
+                    <input type="text" placeholder="000.000.000-00" required>
+                </div>
+                <hr/>
+				<div>
+                    <label for="endereco">Endereço:</label>
+                    <br/>
+                    <input type="text" required>
+                </div>
+                <hr/>				
+				<div>
+                    <label for="tel">Telefone:</label>
+                    <br/>
+                    <input type="text" placeholder="(XX) XXXX-XXXX" required>
+                </div>
+                <hr/>
+                <div>
+                    <label for="login">Login:</label>
+                    <br/>
+                    <input type="text" required>
+                </div>
+                <hr/>
+                <div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <br/>
+                    <input type="email" name="email" required>
+                </div>
+                <hr/>
+                    <label for="senha">Senha:</label>
+                    <br/>
+                    <input type="password" required>
+                </div>
+                <hr/>
+                <div>
+                    <label for="confirma">Confirmar senha:</label>
+                    <br/>
+                    <input type="password" required>
+                </div>
+                <hr/>
+				<div>
+					<input type="submit" onclick="login.html" value="Cadastrar" class="btn btn-primary">
+				</div>
+            </div>
+			
+				<br/>
+		</form>
+        <div class="jumbotron text-center">
+            <br/>
+            <p> &copy;Guilherme Queiroz_2017</p>
+        </div>
+    </body>
+</html>
